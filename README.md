@@ -74,7 +74,7 @@ You can learn more about how dashboard can be installed from [this](https://graf
 Clone repository:
 
 ```bash
-$ git clone https://github.com/Mtt6300/nginx-geo-metricsreporter.git
+$ git clone https://github.com/fly304625/nginx-geo-metricsreporter.git
 $ cd nginx-geo-metricsreporter
 ```
 

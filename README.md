@@ -1,6 +1,11 @@
 # Nginx Geo MetricsReporter
 Simple metrcis reporter with Python for track visitors' location and where connected to [Nginx]("https://www.nginx.com/") webservice.
 
+https://eternalhost.net/blog/razrabotka/kubernetes-chto-eto
+https://kubernetes.io/ru/docs/reference/kubectl/cheatsheet/
+https://kubernetes.io/ru/docs/tasks/tools/install-kubectl/
+
+
 ## How it works
 Nginx-parser, parsing Nginx `access.log` line by line, after recognizing any change in log file, a post request will be sent with some data like `$remote_addr` and `$host` to the Metricsreporter Webservice. Metricsreporter will grab information from `Geo dataset` with previous step data and make that a metrics for `Proemtheus` on `/metrics`.
 

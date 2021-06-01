@@ -2,7 +2,9 @@
 Simple metrcis reporter with Python for track visitors' location and where connected to [Nginx]("https://www.nginx.com/") webservice.
 
 https://eternalhost.net/blog/razrabotka/kubernetes-chto-eto
+
 https://kubernetes.io/ru/docs/reference/kubectl/cheatsheet/
+
 https://kubernetes.io/ru/docs/tasks/tools/install-kubectl/
 
 
